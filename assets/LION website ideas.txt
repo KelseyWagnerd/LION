@@ -1,0 +1,13 @@
+LION Website Ideas
+-- Home page: Horizontal bars with illustrations and links to individual pages
+
+
+Pages:
+
+-- News Updates/Blog
+-- Events Calendar
+-- Contact Us
+-- Find Local Members
+	-- Create directory of members and location
+	-- Input search for members within x miles of x city/zipcode
+	-- Show results. Use Google Maps plugin to find distance???

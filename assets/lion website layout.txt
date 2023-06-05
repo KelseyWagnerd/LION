@@ -1,0 +1,84 @@
+PAGES:
+
+Home page
+-- Nav bar
+ABOUT US   |   MEMBERSHIP   |   CONTACT US   |  EVENTS
+		 
+-- Large hero image with LION: Subtitle 
+-- Mission statement/what we do				 |   IMAGE
+
+
+-- 3 cards with 
+HISTORY:          			Future:      					Members:   			
+-------		     			------------					-----------
+Founded in blablabal			Goals of adding leaders				Benefits:
+Young network				This network belongs to YOU			Meet local professionals asosociated with IO PSy
+					Opportities for leadership			Share ideas w local academics and practitioners
+					More meetings					Stay up to date on cutting edge research
+					Become known resource for Louisville			
+					business consultation and careers		
+												->BECOME A MEMBER<-
+
+
+Contact Us bar
+Email louisvilleionetwork@gmail.com fmi (Business lion avatar in circle)
+
+
+
+
+---------------------------
+FOOTER
+
+
+(c) K-Dawg Dezinez       (linked in icon) (email icon) 
+
+
+----------------------------------------------------------------------------------------------------------------
+MEMBERSHIP PAGE:
+-- Nav bar
+
+- How to Join bar
+-- Joining requirements       |        Degree Not Required list!
+Be able to attend mtgs	      |		anyone interested in 
+Be in Lou				HR design, 
+Have an interest in			talent development, 
+disccussing IO!				recruiting
+ 
+
+
+
+	JOIN MAILING LIST
+	(Link to Google Form)
+	Name:
+	Email: 
+	Location: 
+	Student: Y/N
+		If yes School:
+			Program:
+	Company:
+	Expertise:
+	Interest:
+			
+WHERE LIONs WORK
+LION members work with businesses and organizations all over the world! 
+[Google Maps widget with lion pins on business locations]
+
+-------------------------------------------------------------------------------------
+EVENTS PAGE:
+
+LION hosts casual meetings at rotating breweries every other month			
+Contact Alan to find out when the next meeting is
+
+GOT A MEETING IDEA?
+If you have a topic, speaker, presentation, or shapow to suggest, we will help you make it happen!
+
+UPCOMING MEETINGS
+Events are posted on the LION LinkedIn
+[LinkedIn feed widget]
+
+
+---------------------------------------------------------------------------------------
+Future pages:
+-- Consultation (like Memphis)
+-- Photo gallery 
+-- Executive Team page like Gateway/St Louis 
