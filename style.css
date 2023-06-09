@@ -486,3 +486,27 @@ a:active {
 .event-item {
   margin-top: 1rem;
 }
+
+/*///////////////////////// MEMBERSHIP ////////////////*/
+
+.how-to-textbox {
+  margin: 2rem;
+  line-height: 150%;
+}
+
+.section-join {
+  margin-top: 3rem;
+}
+.join-box {
+  display: grid;
+  place-items: center;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.btn-container {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
