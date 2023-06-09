@@ -1,0 +1,27 @@
+LION website list of tasks:
+
+louisvilleionetwork@gmail.com
+10network
+
+* = optional/difficult, might not get added
+** = Definitely gonna add it, will take work though
+*** = Necessary/easy fix, do these first
+
+Homepage:
+** Update footer
+* Make navbar sticky
+
+Membership:
+** Build "Join our Mailing List" Google Form
+** Fix CSS spacing
+* Add image/illustration
+
+Events: 
+*** Replace stock image with actual LION event image
+** Fix CSS spacing
+** Add "Upcoming Events" box with event description and link to linkedin page
+
+About Us:
+*** Replace filler text with actual bios
+
+

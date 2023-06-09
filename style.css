@@ -95,6 +95,14 @@ html {
   transition: all 0.4s;
 }
 
+.logo {
+  height: 20rem;
+  transition: all 0.4s;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+
 .grid-2-cols {
   background-color: #14101f;
   display: grid;
@@ -104,41 +112,63 @@ html {
   align-items: center;
 }
 
+/* Fancy title dividers */
+.fancy {
+  --b: 6px; /* control the border thickness */
+  --w: 80px; /* control the width of the line*/
+  --g: 15px; /* control the gap */
+  --c: #fc8500;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 0 1em;
+  line-height: 1.6em;
+  border: 1px solid;
+  color: #fff;
+  background: conic-gradient(from 45deg at left, var(--c) 25%, #0000 0) 0,
+    conic-gradient(from -135deg at right, var(--c) 25%, #0000 0) 100%;
+  background-size: 51% 100%;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  border-image: linear-gradient(
+      #0000 calc(50% - var(--b) / 2),
+      var(--c) 0 calc(50% + var(--b) / 2),
+      #0000 0
+    )
+    1/0 var(--w) / calc(var(--w) + var(--g));
+  margin-inline: auto;
+}
+
 /* Style the navigation bar */
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ffce96;
+  background-image: linear-gradient(to bottom right, #ffce96, #fc8500);
   padding: 1.2rem 0;
 }
 
 .navbar a {
   color: #333;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   transition: all 0.4s;
 }
 
-.navbar a:hover,
-a:active {
+.navbar a:hover {
   color: #00a37e;
+  /* Webkit extensions don't work the same on all devices.*/
+  /* text-stroke: radius color; */
+  -webkit-text-stroke: 1px #6cf0d4;
+  /* text-shadow: horiz vert radius color; */
+  text-shadow: 2px 2px 3px #1c87c9;
 }
 
 /* Style the hero */
 
 .section-hero {
   margin-top: 2rem;
-}
-
-.logo {
-  height: 20rem;
-  transition: all 0.4s;
-}
-.logo:hover {
-  transform: scale(1.1);
 }
 
 .hero-text {
@@ -181,10 +211,11 @@ a:active {
   padding: 1.2rem;
   border-radius: 15px;
   transition: all 0.4s;
+  text-align: center;
 }
 
 .card:hover {
-  transform: translateY(-1.2rem);
+  transform: translateY(-0.5rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
@@ -318,3 +349,83 @@ a:active {
   padding: 10px;
   text-align: center;
 }
+
+/* ////////////////////////////ABOUT US//////////////////////// */
+.section-about {
+  margin-top: 5rem;
+}
+
+.about-textbox {
+  background-color: #14101f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  margin-top: 10rem;
+  font-size: 16pt;
+}
+
+.about-title {
+  color: #14101f;
+  letter-spacing: 0.8pt;
+  margin-bottom: 3rem;
+}
+
+.about-text {
+  letter-spacing: 0.55pt;
+  line-height: 125%;
+}
+
+.about-img {
+  width: 30rem;
+  height: auto;
+  margin-left: 10rem;
+}
+
+/* Who We Are cards */
+
+.leadership-title {
+  margin-top: 3rem;
+  color: #14101f;
+}
+
+.avatar {
+  height: 75px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.name {
+  font-size: 22pt;
+  font-weight: bold;
+  color: #ffc477;
+}
+.leadership-position {
+  font-size: 14pt;
+  color: #fff;
+  margin: 1rem;
+}
+
+.leadership-links {
+  margin-top: 1rem;
+}
+
+.leadership-links a {
+  font-size: 22pt;
+  text-decoration: none;
+  color: #ffc477;
+  transition: all 1s;
+  /* padding: up right down left; */
+  padding: 10px 10px 3px 10px;
+  background-color: #065c82;
+  border-radius: 50%;
+}
+
+.leadership-links a:hover,
+a:active {
+  font-size: 22pt;
+  text-decoration: none;
+  color: #fc8500;
+}
+
+/* /////////////////////// EVENTS ///////////////////////// */

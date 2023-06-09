@@ -32,51 +32,101 @@
     </nav>
   </head>
 
-  <section class="section-about grid-2-cols">
-    <div class="about-textbox">
-      <p class="about-text">
-        LION is Louisville's exclusive network for connecting all professionals
-        with an interest in industrial/organizational psychology, human
-        resources, talent recruiting, training and development, and more.
-      </p>
-    </div>
-
-    <div class="about-imgbox">
-      <img class="large-img about-img" src="img/logo.png" />
-    </div>
-  </section>
-
-  <section class="section-leadership">
-    <h3 class="leadership-title">Who We Are</h3>
-    <div class="leadership-textbox">
-      <p class="leadership-text">
-        <img class="avatar" src="img/alan.jpg" />
-        <span>Alan Tomassetti</span>, President
-      </p>
-      <p class="leadership-details">
-        Alan founded LION after moving home to Louisville and finding there was
-        a community need for bla bla bla. LION is Alan's project, contact him
-        for info on future meetings or if you have any ideas for locations,
-        topics, or activities for meetings.
-      </p>
-    </div>
-
-    <div class="leadership-textbox">
-      <p class="leadership-text">
-        <img class="avatar" src="img/alan.jpg" />
-        <span>Carl Maertz</span>, A Really Cool Guy
-      </p>
-      <p class="leadership-details">
-        Carl is a professor of blabla at UofL and also the head of their
-        business blabla department. Carl has helped many students with an
-        interest in IO psychology develop their skills, connect with others in
-        the field, and gain a foothold in the industry (including Alan!) Contact
-        Carl for questions about education or careers?
-      </p>
-    </div>
-  </section>
-
   <body>
-    <main></main>
+    <main>
+      <section class="section-about grid-2-cols">
+        <div class="about-textbox">
+          <h1 class="fancy about-title">About LION</h1>
+          <p class="about-text">
+            LION is Louisville's exclusive network for connecting all
+            professionals with an interest in industrial/organizational
+            psychology, human resources, talent recruiting, training and
+            development, and more.
+          </p>
+        </div>
+
+        <div class="about-imgbox">
+          <img class="large-img logo about-img" src="img/connectedlion.png" />
+        </div>
+      </section>
+
+      <section class="section-leadership">
+        <h2
+          class="fancy leadership-title"
+          style="--w: 50vw; --c: #2ce3ba; --b: 4px; --g: 40px"
+        >
+          Who We Are
+        </h2>
+        <div class="cards-grid">
+          <div class="card">
+            <img class="avatar" src="img/alan.jpg" />
+
+            <p class="name">Alan Tomassetti</p>
+            <p class="leadership-position"><em>President</em></p>
+
+            <p class="leadership-details">
+              Alan founded LION after moving home to Louisville and finding
+              there was a community need for bla bla bla. LION is Alan's
+              project, contact him for info on future meetings or if you have
+              any ideas for locations, topics, or activities for meetings.
+            </p>
+            <p class="leadership-links">
+              <a href="mailto:louisvilleionetwork@gmail.com"
+                ><ion-icon name="mail-sharp"></ion-icon
+              ></a>
+              <a href="https://www.linkedin.com/in/alantomassetti/"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+            </p>
+          </div>
+
+          <div class="card">
+            <img class="avatar" src="img/maetzcarl.png" />
+            <p class="name">Carl Maertz</p>
+            <p class="leadership-position"><em>A Really Cool Guy</em></p>
+            <p class="leadership-details">
+              Carl is a professor of blabla at UofL and also the head of their
+              business blabla department. Carl has helped many students with an
+              interest in IO psychology develop their skills, connect with
+              others in the field, and gain a foothold in the industry
+            </p>
+            <p class="leadership-links">
+              <a href="mailto:cpmaer01@gmail.com"
+                ><ion-icon name="mail-sharp"></ion-icon
+              ></a>
+              <a href="https://www.linkedin.com/in/dr-carl-maertz-817a944/"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+            </p>
+          </div>
+
+          <div class="card">
+            <img class="avatar" src="img/justin.jpg" />
+            <p class="name">Justin Tucker</p>
+            <p class="leadership-position">
+              <em>Top Tier Friendship Experience</em>
+            </p>
+            <p class="leadership-details">
+              Justin is a consultant of blabla with the blabla corp who knows a
+              lot about data. You need some data visualized? Go to this guy.
+              Justin has taught Power BI and data science courses with
+              University of Louisville and Code Kentucky.
+            </p>
+            <p class="leadership-links">
+              <a href="mailto:justinktucker@gmail.com"
+                ><ion-icon name="mail-sharp"></ion-icon
+              ></a>
+              <a href="https://www.linkedin.com/in/justin-tucker-34067b32/"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
+
+  <div class="footer">
+    <p>© 2023 by K-Dawg Dezinez. All rights reserved.</p>
+  </div>
 </html>
