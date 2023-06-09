@@ -13,15 +13,10 @@ Homepage:
 
 Membership:
 ** Build "Join our Mailing List" Google Form
-** Fix CSS spacing
 * Add image/illustration
 
 Events: 
 *** Replace stock image with actual LION event image
-** Fix CSS spacing
-** Add "Upcoming Events" box with event description and link to linkedin page
 
-About Us:
-*** Replace filler text with actual bios
 
 
