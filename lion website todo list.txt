@@ -12,8 +12,7 @@ Homepage:
 * Make navbar sticky
 
 Membership:
-** Build "Join our Mailing List" Google Form
-* Add image/illustration
+** Make list fancy formatted
 
 Events: 
 *** Replace stock image with actual LION event image

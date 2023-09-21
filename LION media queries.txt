@@ -1,0 +1,21 @@
+MEDIA QUERIES FOR LION WEBSITE
+-- Set default zoom to 100%? Seems to load zoomed in for some reason?
+-- Make sure all sizes are in percentages or rem not pixels!!
+
+1. 863px: 
+
+Homepage:
+-- Change navbar width
+-- Change size of L-I-O-N title for no overflow
+-- Change height of skyline image for no distortion (auto? 100%?)
+-- Re-align cards as horizontal bars (grid-template-rows 3 instead of cols?)
+
+Membership:
+-- Looks great tbh
+
+About:
+-- Remove graphic and center ABOUT text
+-- (non MQ updates: Add commma to Alan bio, float contact buttons off the bottom of the cards so they line up, remove email buttons for Justin and Carl)
+
+Contact:
+-- Looks great tbh
